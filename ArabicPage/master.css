@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500&family=Tajawal:wght@400;700;900&display=swap');
+
+:root {
+    --maincolor: #ef5e4e;
+}
+
+body {
+    direction: ltr;
+    font-family: 'Tajawal';
+    font-size: 17px;
+}
+
+.hrD {
+    display: none;
+}
+
+
+.navbar {
+    width: 100%;
+    height: auto;
+}
+
+.navbar .container nav .navbar-collapse .navbar-nav li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #f91d04;
+    background-color: #fff8f8;
+}
+
+.country {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.arabic {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--maincolor);
+}
+
+.form-inline .list {
+    height: 37px;
+    background-color: var(--maincolor);
+    color: white;
+    border: 1px solid var(--maincolor);
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-right: 10px;
+}
+
+.submit {
+    color: var(--maincolor);
+    border: 1px solid #eee;
+    font-weight: bold;
+}
+
+.submit:hover {
+    background-color: #eee;
+    color: var(--maincolor);
+}
+
+.inputgroup1 input {
+    width: 400px;
+    margin-top: 7px;
+    height: 40px;
+}
+
+.input-group {
+    margin-top: 7px;
+}
+
+.drop {
+    border: 1px solid var(--maincolor);
+    height: 40px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+.find {
+    background-color: var(--maincolor);
+    color: white;
+    font-weight: bold;
+    border: 1px solid var(--maincolor);
+    width: 80px;
+    border-radius: 5px;
+    margin-left: 5px;
+    height: 40px;
+}
+
+.hr {
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+
+    .drop-search {
+        height: auto;
+    }
+
+    .input-group {
+        display: block;
+    }
+
+    .drop {
+        width: 100%;
+        margin: 20px 10px 0 10px;
+    }
+
+
+    .inputgroup1 input {
+        width: 100%;
+        margin: 20px 10px 0 10px;
+    }
+
+    .hrD {
+        display: block;
+        position: relative;
+    }
+
+    .form-inline {
+        display: block;
+    }
+
+    .form-inline .list {
+        display: block;
+    }
+
+    .form-inline .submit {
+        display: block;
+    }
+
+    .find {
+        width: 100%;
+        margin: 20px 10px;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .form-inline {
+        display: block;
+    }
+
+    .form-inline .list {
+        display: block;
+        width: 100px;
+        margin-bottom: 5px;
+    }
+
+    .form-inline .submit {
+        display: block;
+        width: 100px;
+    }
+
+    .drop-search {
+        height: auto;
+        text-align: center;
+    }
+
+    .inputgroup1 input {
+        display: block;
+        width: 100%;
+        margin: 20px 10px 0 10px;
+    }
+
+    .input-group {
+        display: block;
+    }
+
+    .drop {
+        width: 160px;
+        margin: 15px 10px 0 10px;
+    }
+
+    .find {
+        width: 160px;
+        margin: 15px 10px 0 10px;
+        position: relative;
+        top: 9px;
+    }
+
+}
+
+.prop-feature {
+    margin: 10px 0;
+    position: relative;
+}
+
+.propertys {
+    margin-top: 15px;
+}
+
+.propertys .prop {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.search {
+    width: 150px;
+    background-color: white;
+    border: 1px solid #eee;
+    padding: 5px 0;
+}
+
+.features {
+    margin-top: 15px;
+    position: absolute;
+    right: 0;
+
+}
+
+.features .sort {
+    position: absolute;
+    margin-top: 5px;
+    width: auto;
+    right: 340px;
+}
+
+.features .sort span {
+    width: auto;
+}
+
+.fet-btn {
+    position: absolute;
+    right: 115px;
+    width: 200px;
+    border: 1px solid #eee;
+}
+
+
+@media (max-width:767px) {
+    .featcherd {
+        display: block;
+        margin-bottom: 70px;
+    }
+
+    .propertys {
+        text-align: center;
+    }
+
+    .search {
+        width: 150px;
+        margin: 20px auto;
+    }
+
+    .features {
+        width: 100%;
+        height: auto;
+        left: 50px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+}
+
+.links-gp {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    background-color: #eee;
+}
+
+.links-gp ul {
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+@media (max-width:767px) {
+    .links-gp {
+        display: block;
+    }
+
+    .links-gp ul {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 0;
+    }
+
+    .links-gp ul li {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .links-gp ul li a {
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+.house-sals {
+    width: 98%;
+    margin: 30px auto;
+}
+
+.card-body {
+    position: relative;
+}
+
+.card-body .info-house li {
+    list-style: none;
+}
+
+.card-body .info-house li .title {
+    color: #222;
+    font-weight: bold;
+}
+
+.card-body .info-house li a {
+    text-decoration: none;
+    color: #222;
+}
+
+.price-house {
+    text-align: right;
+}
+
+.price-house h3 {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-footer .buttons-conct {
+    width: 70%;
+}
+
+.cart-footer .buttons-conct .contact-btn {
+    width: 30px;
+    height: 20px;
+    border: 1px solid #ddd;
+    padding: 5px 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+.cart-footer .logo {
+    width: 30%;
+    justify-content: end;
+}
+
+.cart-footer .logo img {
+    width: 150px;
+    height: 100px;
+    justify-content: end;
+}
+
+@media (max-width:767px) {
+    .cart-footer .buttons-conct .contact-btn {
+        width: 20px;
+        padding: 5px 7px;
+    }
+
+}
+
+.images img {
+    width: 360px;
+    height: 200px;
+    margin: auto;
+}
+
+.card-footer {
+    background-color: white;
+    border-top: 1px solid #ddd;
+}
+
+.card-body h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-body li {
+    list-style: none;
+}
+
+.card-body li a {
+    text-decoration: none;
+    color: #222;
+}
+
+.card-footer .button-conct {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.card-footer .button-conct .contact-btn {
+    width: 30px;
+    height: 20px;
+    border: 1px solid #ddd;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.card-footer .button-conct .contact-btn:not(:last-child) {
+    margin-right: 140px;
+}
+
+.img {
+    width: 100%;
+}
+
+.img img {
+    width: 160px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+    .images {
+        text-align: center;
+    }
+
+    .card-footer .button-conct {
+        text-align: center;
+    }
+
+    .card-footer .button-conct .contact-btn:not(:last-child) {
+        margin-right: 5px;
+    }
+
+    .card-footer .button-conct .contact-btn {
+        width: 20px;
+        padding: 5px 15px;
+        margin: 20px;
+    }
+
+
+    .img {
+        text-align: center;
+    }
+
+    .img img {
+        width: 80%;
+        margin: auto;
+    }
+
+}
+
+
+@media (max-width: 1199px) {
+    .images {
+        text-align: center;
+    }
+
+    .images img {
+        width: 300px;
+        text-align: center;
+    }
+
+    .card-footer .button-conct {
+        text-align: center;
+    }
+
+    .card-footer .button-conct .contact-btn:not(:last-child) {
+        margin-right: 5px;
+    }
+
+    .card-footer .button-conct .contact-btn {
+        width: 20px;
+        padding: 5px 15px;
+        margin: 20px;
+    }
+
+
+    .img {
+        text-align: center;
+    }
+
+    .img img {
+        width: 80%;
+        margin: auto;
+    }
+
+}
+
+.Pagination {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Pagination li {
+    margin: auto;
+    width: 100%;
+}
+
+.pagination .b-n {
+    background-color: var(--maincolor);
+    color: white;
+    font-size: 18px;
+    border-color: var(--maincolor);
+}
+
+.pagination .number-btn {
+    color: var(--maincolor);
+    text-align: center;
+}
+
+@media (max-width:767px) {
+
+    .Pagination {
+        width: 200px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .Pagination li {
+        margin: auto;
+        width: 100%;
+    }
+}
+
+.footer {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer .row img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer .row .card-body .card-title {
+    color: #222;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer .row .card-body .card-text {
+    line-height: 1.2;
+    color: #222;
+    text-align: center;
+}
+
+
+@media (max-width:767px) {
+    .footer {
+        margin-top: 30px;
+    }
+}

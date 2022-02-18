@@ -1,0 +1,292 @@
+.navbar {
+    width: 100%;
+    height: auto;
+}
+
+
+.navbar .container nav {
+    width: 100%;
+    margin: 5px auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar .container .link ul {
+    width: 500px;
+    margin: auto;
+}
+
+.navbar .container .link ul li {
+    width: 100%;
+    margin: auto;
+}
+
+.navbar .container .link ul a {
+    width: 100%;
+    margin: auto;
+    color: #222;
+}
+
+.navbar .container .link ul .new {
+    width: 130px;
+    text-align: center;
+    margin: auto;
+}
+
+.navbar .container .link ul .agent {
+    width: 130px;
+    text-align: center;
+    margin: auto;
+}
+
+@media (max-width:767px) {
+    .navbar .container .link ul .new {
+        width: 100%;
+        margin: auto;
+        text-align: left;
+    }
+
+    .navbar .container .link ul .agent {
+        width: 100%;
+        margin: auto;
+        text-align: left;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar .container .link ul .new {
+        width: 100%;
+        margin: auto;
+        text-align: left;
+    }
+
+    .navbar .container .link ul .agent {
+        width: 100%;
+        margin: auto;
+        text-align: left;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .navbar .container .link ul .new {
+        width: 100%;
+        margin: auto;
+        text-align: left;
+    }
+
+    .navbar .container .link ul .agent {
+        width: 100%;
+        margin: auto;
+        text-align: left;
+    }
+
+}
+
+.inpDrop {
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.container .input-drop {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.input-drop .row {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.input-drop .row .the-input {
+    width: 25%;
+    margin-right: 0;
+    padding: 0;
+}
+
+.input-drop .row .the-input input {
+    width: 100%;
+    height: 50px;
+    margin-top: 6px;
+    border: 1px solid #ddd;
+}
+
+.input-drop .row .drop-group {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-drop .row .drop-group .dpdn {
+    width: 155px;
+    height: 50px;
+    border: 1px solid #ddd;
+}
+
+.input-drop .row .drop-group .btn button {
+    width: 155px;
+    height: 50px;
+    background-color: var(--maincolor);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (max-width:767px) {
+    .input-drop .row .the-input {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .input-drop .row .the-input input {
+        width: 93%;
+        margin: auto 10px;
+    }
+
+    .input-drop .row .drop-group {
+        width: 100%;
+        display: block;
+    }
+
+    .input-drop .row .drop-group .dpdn {
+        width: 100%;
+        margin: 5px auto;
+    }
+
+    .input-drop .row .drop-group .btn {
+        width: 100%;
+        padding: 0;
+    }
+
+    .input-drop .row .drop-group .btn button {
+        width: 100%;
+        margin: 5px auto;
+    }
+}
+
+@media (min-width: 991px) {
+    .input-drop .row .drop-group .dpdn {
+        width: 120px;
+    }
+
+    .input-drop .row .drop-group .btn button {
+        width: 120px;
+    }
+}
+
+@media (min-width: 1199px) {
+    .input-drop .row .drop-group .dpdn {
+        width: 152px;
+    }
+
+    .input-drop .row .drop-group .btn button {
+        width: 150px;
+    }
+}
+
+@media (min-width: 1199px) {
+    .input-drop .row .drop-group .dpdn {
+        width: 120px;
+    }
+
+    .input-drop .row .drop-group .btn button {
+        width: 120px;
+    }
+}
+
+@media (min-width: 1199px) {
+    .input-drop .row .drop-group .dpdn {
+        width: 152px;
+    }
+
+    .input-drop .row .drop-group .btn button {
+        width: 150px;
+    }
+}
+
+.container .house {
+    width: 100%;
+    margin: auto;
+}
+
+.container .house h1 {
+    font-weight: bold;
+}
+
+.container .house .cart .no-gutters {
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container .house .cart .images {
+    width: 400px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container .house .cart .images img {
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.container .house .cart .card-body .card-text {
+    font-size: 25px;
+    color: #4b8df8;
+    font-weight: bold;
+}
+
+.container .house .cart .card-body .div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .house .cart .card-body .span {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 3px 7px;
+    border-radius: 10px;
+}
+
+.container .house .cart .card-body .span a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width:767px) {
+    .container .house h1 {
+        font-size: 20px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .container .house .cart .no-gutters {
+        height: auto;
+        text-align: center;
+    }
+}
+
+@media (min-width: 991px) {
+    .container .house .cart .no-gutters {
+        height: auto;
+    }
+}
+
+.pages-number {
+    height: 100px;
+}

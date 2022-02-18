@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500&family=Tajawal:wght@400;700;900&display=swap');
+
+:root {
+    --mainColor: #ef5e4e;
+}
+
+body {
+    direction: ltr;
+    text-align: left;
+    font-family: 'Tajawal';
+}
+
+.view {
+    width: 100%;
+    height: 500px;
+    margin-top: 0;
+    background-image: url(../../img/view.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view h1 {
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.view .popup {
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.view .popup .buttons {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+}
+
+.view .popup .buttons button {
+    width: 60px;
+    height: 40px;
+    margin: 20px 5px;
+    text-align: center;
+}
+
+.view .popup .search {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    border: none;
+}
+
+.view .popup .search input {
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    border: 1px solid #ddd;
+}
+
+.view .popup .search .drops {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.view .popup .search .drops .dropdown {
+    border: 1px solid #ddd;
+}
+
+.view .popup .search .drops .icon-search {
+    text-align: center;
+    margin: 15px 10px 10px 10px;
+}
+
+.view .popup .search .drops .icon-search i {
+    color: white;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    padding: 5px 15px;
+    background-color: var(--mainColor);
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.view .popup .search .drops .icon-search i::before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.view .popup .search2 {
+    width: 100%;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.view .popup .search2 .dropdown {
+    border: 1px solid #ddd;
+    width: 50px;
+}
+
+.view .popup .search2 input {
+    width: 98%;
+    height: 40px;
+    border: 1px solid #ddd;
+}
+
+@media(max-width:767px) {
+    .view .popup .buttons {
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .view .popup .buttons button {
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .view {
+        height: 600px;
+    }
+
+    .view .popup {
+        height: 400px;
+    }
+
+    .view h1 {
+        font-size: 35px;
+    }
+
+    .view .popup .search {
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+
+    .view .popup .search .input input {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .view .popup .search .drops {
+        display: block;
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .view .popup .search2 {
+        height: auto;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+
+    .view .popup .search2 .dropdown {
+        display: block;
+        width: 92%;
+        margin: 10px auto;
+    }
+
+    .view .popup .search2 input {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media(min-width:768px) {
+    .view .popup .buttons {
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .view .popup .buttons button {
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .view .popup {
+        width: auto;
+        height: 250px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .view h1 {
+        font-size: 60px;
+    }
+
+    .view .popup .search {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .view .popup .search .input {
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+
+    .view .popup .search .input input {
+        width: 100%;
+        margin: auto;
+    }
+
+
+    .view .popup .search .drops {
+        width: 100%;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .view .popup .search .drops .dropdown {
+        justify-content: space-between;
+        width: 150px;
+        margin: 10px auto;
+    }
+}
+
+@media(min-width:992px) {
+    .view {
+        width: 100%;
+        height: 500px;
+        background-image: url(../../img/view.webp);
+        background-size: cover;
+    }
+
+    .view h1 {
+        font-size: 80px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .view .popup {
+        width: 100%;
+        height: 250px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .view .popup .buttons {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+
+    }
+
+    .view .popup .buttons button {
+        width: 60px;
+        height: 40px;
+        margin: 20px 5px;
+        text-align: center;
+    }
+
+    .view .popup .search {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        border: none;
+        display: flex;
+    }
+
+    .view .popup .search input {
+        width: 100%;
+        height: 40px;
+        margin: auto;
+        border: 1px solid #ddd;
+    }
+
+    .view .popup .search .drops {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .view .popup .search .drops .dropdown {
+        border: 1px solid #ddd;
+    }
+
+    .view .popup .search .drops .dropdown .icon-search {
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+        background-color: var(--mainColor);
+    }
+
+    .view .popup .search2 {
+        width: 100%;
+        height: 40px;
+        margin-left: 15px;
+    }
+
+    .view .popup .search2 .dropdown {
+        border: 1px solid #ddd;
+        width: 50px;
+    }
+
+    .view .popup .search2 input {
+        width: 98%;
+        height: 40px;
+        border: 1px solid #ddd;
+    }
+}
+
+
+.title {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title h1::after {
+    content: '';
+    position: absolute;
+    width: 360px;
+    top: 15px;
+    right: 0;
+    height: 2px;
+    background-color: #ddd;
+}
+
+.title h1::before {
+    content: '';
+    position: absolute;
+    width: 360px;
+    top: 15px;
+    left: 0;
+    height: 2px;
+    background-color: #ddd;
+}
+
+.title h1 {
+    font-size: 23px;
+    font-weight: bold;
+    color: #222;
+    text-align: center;
+}
+
+@media(max-width:767px) {
+    .title h1 {
+        font-size: 20px;
+    }
+
+    .title h1::after {
+        display: none;
+    }
+
+    .title h1::before {
+        display: none;
+    }
+}
+
+@media(min-width:768px) {
+
+    .title h1::after {
+        width: 150px;
+    }
+
+    .title h1::before {
+        width: 150px;
+    }
+}
+
+@media(min-width:992px) {
+
+    .title h1::after {
+        width: 350px;
+    }
+
+    .title h1::before {
+        width: 350px;
+    }
+}
+
+
+.houses .row .card {
+    width: 47%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.houses .row .card img {
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+
+
+.houses .row .card .card-body .card-title {
+    text-align: center;
+    font-size: 20px;
+    color: #009688;
+}
+
+.houses .row .card .card-body .card-text {
+    text-align: center;
+}
+
+.houses .row .card .card-body span {
+    color: #ef5e4e;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.links {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links div {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+
+.links h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: #ef5e4e;
+}
+
+.links ul {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    margin-left: 0;
+}
+
+.links ul li a {
+    margin-left: -30px;
+}
+
+@media(max-width:767px) {
+    .links {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .links h3 {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .links ul {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+}
+
+@media(max-width:1199px) {
+    .links {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .links h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .links div {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        border: 1px solid #eee;
+    }
+
+    .links ul {
+        width: 100%;
+    }
+}
